@@ -1,0 +1,45 @@
+site_name: NeoNomadia
+site_description: Open-source backend platform enabling orientation, integration, and belonging in a nomadic world.
+site_author: NeoNomadia Contributors
+repo_url: https://github.com/PehKB/neonomadia
+repo_name: GitHub
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.instant
+    - navigation.sections
+    - navigation.tabs
+    - search.highlight
+    - content.code.copy
+    - content.tabs.link
+  palette:
+    scheme: default
+    primary: deep purple
+    accent: lime
+
+markdown_extensions:
+  - admonition
+  - footnotes
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.highlight
+  - pymdownx.emoji
+  - pymdownx.details
+  - pymdownx.mark
+  - pymdownx.tasklist
+
+nav:
+  - Home: index.md
+  - Vision: vision.md
+  - Technical Framework: technical-framework.md
+  - Development Stages: development-stages.md
+  - Functional Scope: functional-scope.md
+  - Core Principles: principles.md
+  - Embera Platform:
+      - Overview: embera-platform.md
+      - Embera.org (Web): embera-platform/embera-web.md
+      - Android App: embera-platform/embera-android.md
+      - iOS App: embera-platform/embera-ios.md
