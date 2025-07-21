@@ -1,3 +1,3 @@
-# Embera Ios
+# Glossary
 
 _Coming soon..._

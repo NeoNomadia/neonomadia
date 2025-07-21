@@ -1,3 +1,3 @@
-# Embera Ios
+# Contributing
 
 _Coming soon..._

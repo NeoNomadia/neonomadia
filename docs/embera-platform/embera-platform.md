@@ -1,3 +1,3 @@
-# Embera Ios
+# Embera Platform
 
 _Coming soon..._

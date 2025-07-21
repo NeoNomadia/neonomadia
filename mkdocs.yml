@@ -6,6 +6,21 @@ repo_name: GitHub
 theme:
   name: material
   language: en
+  logo: resources/neonomadia-full-logo-225.png
+  favicon: resources/favicon.png
+  palette:
+    - scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name:
+    - scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
   features:
     - navigation.instant
     - navigation.sections
@@ -13,11 +28,8 @@ theme:
     - search.highlight
     - content.code.copy
     - content.tabs.link
-  palette:
-    scheme: default
-    primary: deep purple
-    accent: lime
-
+extra_css:
+  - stylesheets/extra.css
 markdown_extensions:
   - admonition
   - footnotes
@@ -34,12 +46,48 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Vision: vision.md
-  - Technical Framework: technical-framework.md
-  - Development Stages: development-stages.md
-  - Functional Scope: functional-scope.md
-  - Core Principles: principles.md
+  - Core Principles:
+      - Code of Conduct: core-principles/code-of-conduct.md
+      - Contributing: core-principles/contributing.md
+      - Governance: core-principles/governance.md
+  - Functional Scope:
+      - Overview: functional-scope/functional-scope-overview.md
+      - Essential Features: functional-scope/functional-scope-essential-features.md
+      - MVP Features: functional-scope/functional-scope-mvp-features.md
+      - Short Term Features: functional-scope/functional-scope-short-term-features.md
+      - Mid Term Features: functional-scope/functional-scope-mid-term-features.md
+      - Long Term Features: functional-scope/functional-scope-long-term-features.md
+      - Perspectives and Evolvements: functional-scope/functional-scope-perspectives-and-evolvements.md
+  - Technical Documentation:
+      - Overview: technical-documentation/technical-documentation-overview.md
+      - Design Decisions: technical-documentation/design-decisions.md
+      - Architecture:
+        - Architecture Overview: technical-documentation/architecture/architecture-overview.md
+        - Components: technical-documentation/architecture/components.md
+      - Data Model: technical-documentation/data-model.md
+      - API Design: technical-documentation/api-design.md
+      - Security Considerations: technical-documentation/security-considerations.md
+      - Performance Considerations: technical-documentation/performance-considerations.md
+      - Scalability Considerations: technical-documentation/scalability-considerations.md
+      - Deployment Considerations: technical-documentation/deployment-considerations.md
+      - Strategies and Standards:
+        - Testing Strategy: technical-documentation/strategies-and-standards/testing-strategy.md
+        - Monitoring and Logging: technical-documentation/strategies-and-standards/monitoring-and-logging.md
+        - Backup and Recovery: technical-documentation/strategies-and-standards/backup-and-recovery.md
+        - Versioning Strategy: technical-documentation/strategies-and-standards/versioning-strategy.md
+        - Documentation Standards: technical-documentation/strategies-and-standards/documentation-standards.md
+        - Code Quality Standards: technical-documentation/strategies-and-standards/code-quality-standards.md
+        - Development Workflow: technical-documentation/strategies-and-standards/development-workflow.md
+        - Continuous Integration/Continuous Deployment (CI/CD): technical-documentation/strategies-and-standards/ci-cd.md
+  - Development: 
+      - Roadmap: development/roadmap.md
+      - Project Management: development/project-management.md
+      - Project State Board: development/project-state-board.md
+      - Release Notest:
+          - v0.1.0: development/release-notes/v0.1.0.md
+  - Glossary: glossary.md
   - Embera Platform:
-      - Overview: embera-platform.md
-      - Embera.org (Web): embera-platform/embera-web.md
+      - Overview: embera-platform/embera-platform.md
+      - Embera.world (Web): embera-platform/embera-world.md
       - Android App: embera-platform/embera-android.md
       - iOS App: embera-platform/embera-ios.md

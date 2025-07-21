@@ -1,3 +1,3 @@
 # Embera Android
 
-_(Content coming soon)_
+_Coming soon..._
