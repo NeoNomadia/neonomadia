@@ -19,7 +19,8 @@ This decision will be revisited once the initial roadmap is finalized and the pr
 
 NeoNomadia is visually anchored by a distinctive logo, primarily designed for use on the project website:
 
-![neonomadia logo](../../resources/neonomadia-full-logo-225.png)
+![NeoNomadia Logo](../assets/images/neonomadia-full-logo-225.png#only-light)
+![NeoNomadia Logo](../assets/images/neonomadia-full-logo-225-dm.png#only-dark)
 
 This logo establishes the project's core color palette:
 

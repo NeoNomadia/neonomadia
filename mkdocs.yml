@@ -6,8 +6,8 @@ repo_name: GitHub
 theme:
   name: material
   language: en
-  logo: resources/neonomadia-full-logo-225.png
-  favicon: resources/favicon.png
+  logo: assets/images/neonomadia-logo-48.png
+  favicon: assets/images/favicon.png
   palette:
     - scheme: default
       primary: custom
