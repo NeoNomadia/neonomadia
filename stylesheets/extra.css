@@ -1,0 +1,20 @@
+:root > * {
+  --md-primary-fg-color: #0A2438;        /* Dark Blue */
+  --md-primary-fg-color--light: #29525C; /* Turquoise */
+  --md-primary-fg-color--dark: #2E666B;  /* Light Turquoise */
+  --md-accent-fg-color: #F69B2F;         /* Light Orange */
+  --md-typeset-a-color: #2E666B;         /* Light Turquoise */
+  --md-typeset-a-color--hover: #F69B2F;  /* Light Orange */
+  --md-typeset-a-color--active: #29525C; /* Turquoise */
+}
+
+/* Force white background for tables in dark mode */
+[data-md-color-scheme="slate"] table {
+  background-color: white;
+  color: black;
+}
+
+[data-md-color-scheme="slate"] th,
+[data-md-color-scheme="slate"] td {
+  background-color: white;
+}
