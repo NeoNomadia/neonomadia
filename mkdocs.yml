@@ -45,7 +45,16 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - Vision: vision.md
+  - Vision: 
+      - Vision: vision/index.md
+      - Big Picture:
+        - Session Control: vision/big-picture/session-control.md
+        - Administration: vision/big-picture/administration.md
+        - The Guide: vision/big-picture/the-guide.md
+        - The Environment: vision/big-picture/the-environment.md
+        - The Community: vision/big-picture/the-community.md
+        - The Moderated AI Concept: vision/big-picture/moderated-ai-concept.md
+        - Sub Projects: vision/big-picture/sub-projects.md
   - Core Principles:
       - Code of Conduct: core-principles/code-of-conduct.md
       - Contributing: core-principles/contributing.md

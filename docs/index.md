@@ -36,4 +36,4 @@ This documentation covers:
 - Its **functionality**, **core values**, and how it powers Embera
 - Resources to contribute or deploy the project locally
 
-Start exploring — or head to [Vision](vision.md) to understand the philosophy behind the tech.
+Start exploring — or head to [Vision](vision/index.md) to understand the philosophy behind the tech.

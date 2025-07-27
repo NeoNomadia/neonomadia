@@ -49,3 +49,20 @@ It is available as:
 - **Downloadable TTF files** for desktop or local hosting via [1001 Fonts](https://www.1001fonts.com/noto-sans-font.html)
     or [CDNFonts](https://www.cdnfonts.com/noto-sans.font)
 
+## CSS Unit Strategy
+
+To ensure responsive, accessible, and scalable design across NeoNomadia and future sibling projects (e.g. Embera.world), we adopt a modern CSS unit strategy:
+
+- **Use `rem` for font sizes, spacing, and layout rhythm**  
+  This ensures consistency and respects user accessibility settings.
+
+- **Use `%` for widths and container scaling**  
+  Enables fluid layouts that adapt to parent elements.
+
+- **Use `vw` / `vh` sparingly for full-screen sections or hero blocks**  
+  Ideal for immersive layouts, but should be used with care to avoid overflow issues.
+
+- **Avoid `px` for core layout and typography**  
+  Pixels are fixed and don’t scale well across devices or zoom levels. Still acceptable for borders or fine-tuned icon sizing.
+
+This strategy will be formalized and reused in Embera.world and other NeoNomadia-aligned projects to maintain visual coherence and accessibility across platforms.

@@ -18,3 +18,9 @@
 [data-md-color-scheme="slate"] td {
   background-color: white;
 }
+
+h1 img {
+  display: block;
+  margin-bottom: -2rem;
+  margin-top: 0.5rem;
+}
