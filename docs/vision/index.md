@@ -1,4 +1,4 @@
-# <img src="/assets/images/neonomadia-social-preview.png" alt="NeoNomadia Social Preview" width="100%">
+# <img src="../assets/images/neonomadia-social-preview.png" alt="NeoNomadia Social Preview" width="100%">
 
 ## NeoNomadia Vision Statement
 
@@ -12,7 +12,7 @@ This neo-isolationism doesn’t stop at national borders — it now permeates ne
 
 **Inclusion is the compass guiding every aspect of the NeoNomadia project.** Anyone who embraces others with respect and openness — regardless of origin, background, identity (including LGBTQ+), or path — deserves to be seen, heard, and welcomed into our growing community.
 
-**While the United Nations strives to define a framework of rules guiding the behavior of nations, this remains an immensely complex and imperfect pursuit.** The NeoNomadia project seeks to translate those lofty ideals into everyday action — carried out not by governments or leaders, but by individuals. Because people are far more than their representation on paper or through political systems. Our empathy, our capacity to care and connect, cannot be legislated — it must be lived.
+**While the United Nations strives to define a framework of rules guiding the behavior of nations,** this remains an immensely complex and imperfect pursuit. **The NeoNomadia project seeks to translate those lofty ideals into everyday action** — carried out not by governments or leaders, but by individuals. Because people are far more than their representation on paper or through political systems. Our empathy, our capacity to care and connect, cannot be legislated — it must be lived.
 
 ## How NeoNomadia Pursues Its Vision
 
@@ -76,7 +76,7 @@ As soon as the vision statement is finalized, NeoNomadia will be officially foun
 <img src="../assets/images/PehKB-Profile-48px.png" alt="Pierre Krienke - founder of the NeoNomadia project" style="float: left; margin: 15px 20px 0 15px">
 
 Dear visitor,  
-I’m Pierre Krienke — the founder of this ambitious project. I’m truly grateful for your interest and encourage you to stay connected. 
+I’m Pierre — the founder of this ambitious project. I’m truly grateful for your interest and encourage you to stay connected. 
 
 You are warmly welcomed, and your support is deeply appreciated. As soon as our core documentation and realization strategies are complete, contributor onboarding will begin.  
 Let’s build something remarkable together.
